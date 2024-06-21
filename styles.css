@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #e9615e;
-  --secondary-color: #ec9956;
+  --primary-color: #0d0a1c;
+  --secondary-color: #201a47;
   --extra-light: #f3f4f6;
   --white: #ffffff;
-  --gradient-1: linear-gradient(to bottom right, #62393c, #181e41);
+  --gradient-1: linear-gradient(to bottom right, #20153c, #6c58f1);
   --gradient-2: linear-gradient(
     to bottom,
     var(--primary-color),
@@ -34,7 +34,7 @@
 }
 
 .section__description {
-  max-width: 600px;
+  max-width: 900px;
   margin-inline: auto;
   color: var(--extra-light);
   text-align: center;
@@ -63,15 +63,17 @@ a {
   text-decoration: none;
 }
 
+
 .logo {
   display: inline-block;
-  padding: 10px 14px;
+  padding: 13px 14px;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--white);
   background-image: var(--gradient-2);
   border-radius: 100%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  max-width: 50px;
 }
 
 html,
@@ -96,7 +98,7 @@ nav {
 }
 
 .nav__bar {
-  padding: 1rem;
+  padding: 0.7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -105,14 +107,17 @@ nav {
 }
 
 .nav__logo {
-  padding: 9px 12px;
-  font-size: 1.2rem;
-}
+  padding: 14px 15px;
+  font-size: 1rem;
+  max-width: 45px;
+  align-items: auto;
+  }
 
 .nav__bar a {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--white);
+  align-items: center;
 }
 
 .nav__menu__btn {
@@ -166,12 +171,17 @@ nav {
 
 .header__content h1 {
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
+}
+
+.text {
+  color: var(--gradient-1);
 }
 
 .header__content .section__description {
   margin-bottom: 2rem;
+  gap: 2rem;
 }
 
 .header__image {
@@ -188,7 +198,7 @@ nav {
 
 .header__image::after {
   position: absolute;
-  content: "RUKUUU";
+  content: "MUHAMMAD REKY";
   letter-spacing: 1.5rem;
   opacity: 0.5;
   right: 1rem;
@@ -231,10 +241,12 @@ nav {
 
 .about__content {
   text-align: center;
+  
 }
 
 .about__content .section__description {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
 }
 
 .service__grid {
